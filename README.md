@@ -10,9 +10,11 @@ The above command will create a public-private key pair in the ssh directory. Th
 
 
 To check what resourses will be created:
+
 $ terraform plan
 
 To create EC2 instances and their dependencies:
+
 $ terraform apply
 
 Finally point your server ip that will be printed by outputs.tf as follow for ubersurvey
