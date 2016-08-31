@@ -22,6 +22,7 @@ Finally point your server ip that will be printed by outputs.tf as follow for ub
 http://ec2-instance-ip:8080
 
 You can access newly created ec2 instance as follow:
+
 ssh -i ssh/insecure-deployer ec2-user@ec2-instance-ip
 
 
